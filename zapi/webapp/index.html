@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+   <meta charset="utf-8">
+   <title>test</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/stijl.css">
+</head>
+
+<body>
+   <div id="alert"></div>
+   <!-- <form>
+      <h2>Create a new account</h2>
+      <label for="fusername">Username:</label><input type="text" id="fusername"><br>
+      <label for="femail">Email:</label><input type="email" id="femail"><br>
+      <label for="fsignpassword">Password:</label><input type="password" id="fsignpassword"><br>
+      <label for="fprofilephoto">Profilephoto:</label><input type="text" id="fprofilephoto"><br>
+      <label for="fbio">Bio:</label><input type="text" id="fbio"><br>
+      <button type="submit" id="btnAddAccount">Create Account</button>
+   </form> -->
+   <div class="login-page">
+      <div class="form">
+         <form class="register-form">
+            <input type="text" placeholder="name" id="fusername" required>
+            <input type="password" placeholder="password" id="fpassword" required>
+            <input type="email" placeholder="email address" id="femail" required>
+            <button type="submit" id="btnAddAccount">create</button>
+            <p class="message">Already registered? <a href="#" class="login">Sign In</a></p>
+         </form>
+         <form class="login-form">
+            <input type="text" placeholder="username" id="flusername">
+            <input type="password" placeholder="password" id="flpassword">
+            <button type="submit" id="btnLogin">login</button>
+            <p class="message">Not registered? <a href="#" class="register">Create an account</a></p>
+         </form>
+         <form>
+            <input type="number" placeholder="id" id="fid">
+            <button type="submit" id="btnVerwijderAccount">Delete</button>
+         </form>
+      </div>
+      <form>
+         <input type="text" id="fbusername" placeholder="username">
+         <input type="email" id="fbemail" placeholder="email">
+         <input type="password" id="fbpassword" placeholder="password">
+         <input type="text" id="fbprofilephoto" placeholder="profilephoto">
+         <input type="text" id="fbbio" placeholder="bio">
+         <input type="number" id="fbid" placeholder="id">
+         <button type="submit" id="btnBewerkAccount">Bewerk</button>
+      </form>
+      <form>
+         <input type="email" id="flemail" placeholder="email">
+         <input type="password" id="flnpassword" placeholder="password">
+         <button type="submit" id="btnUpdatePassword">Bewerk</button>
+      </form>
+      <form>
+         <input type="number" id="fgollower_id">
+         <input type="number" id="fgollowing_id">
+         <input type="number" id="fblocked">
+         <button type="submit" id="btnGetFollowers">get followers</button>
+      </form>
+   </div>
+   <span class="knop kOdd" id="btnTestLogin">Voeg gebruiker</span>
+   <span class="knop kOdd" id="btnGetTijd">Test servertijd</span>
+   <span class="knop kOdd" id="btnGetProducten">Test producten</span>
+
+
+   <!-- eigen scripts hier -->
+   <script src="js/script.js" defer async></script>
+
+</body>
+
+</html>
