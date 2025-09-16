@@ -1,13 +1,13 @@
 # Z Backend - Social Media App
 
-Dit is de backend van de social media app **Z**, gebouwd met **PHP**. Het verzorgt gebruikersauthenticatie, posts, reacties en alle API-functionaliteiten die de frontend nodig heeft.
+This is the backend of the social media app **Z**, built with **PHP**. It handles user authentication, posts, comments, and all API functionalities required by the frontend.
 
 ## Features
 
-- RESTful API voor gebruikers, posts en reacties  
-- Veilige authenticatie en autorisatie  
+- RESTful API for users, posts, and comments  
+- Secure authentication and authorization  
 
 ## Frontend
 
-De frontend van Z is gebouwd met **Ionic** en **Vue.js**. Voor de volledige gebruikerservaring, bekijk de frontend repository hier:  
+The frontend of **Z** is built with **Ionic** and **Vue.js**. For the full user experience, check out the frontend repository here:  
 🔗 [Z Frontend Repository](https://github.com/SirAmonte/Z-Frontend)
